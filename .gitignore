@@ -1,0 +1,18 @@
+# .gitignore
+# 커널 및 비지박스 빌드 결과물
+linux/
+busybox/
+*.o
+*.ko
+*.img
+bzImage
+Image
+vmlinux
+
+# 아키텍처별 빌드 디렉토리 내부의 산출물
+build-*/
+!build-*/run.sh
+!build-*/mkimg.sh
+!build-*/rootfs/init
+!build-*/rootfs/etc/
+
