@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo apt update && sudo apt install -y \
     git build-essential flex bison bc rsync unzip \
